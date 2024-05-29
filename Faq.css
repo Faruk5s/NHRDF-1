@@ -1,0 +1,78 @@
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+.actibefaq, .collapsible:hover{
+    background-color: blue;
+
+}
+.collapsible:after{
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.activefaq:after{
+    content:"\2212";
+}
+.content{
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    
+    color: black;
+    font-family: "open-sans";
+    transition: 0.3s ease;
+    border-top: 4px solid #FFFFFF;
+    border-bottom: 4px solid #FFFFFF;
+    padding: 20px 0;
+    margin: 0 20px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link:hover {
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    padding: 6px 0px;
+    background: #11ADE8;
+  }

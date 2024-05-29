@@ -1,0 +1,10 @@
+.Apple{
+    height: 500px;
+    width: 500px;
+    background-color: darkgoldenrod;
+}
+
+#Banana{
+    padding: 15px;
+    color: darkslateblue;
+}
